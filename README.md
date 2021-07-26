@@ -4,7 +4,7 @@ Collection of planning view enhanced with VBA coding. These samples should kick-
 
 ## Description
 
-You can enhance SAP Integrated Business Planning (IBP) Excel workbooks by using Visual Basic for Applications (VBA) coding. This GitHub contains several samples, which should illustrate the existing possibilites. The coding is not intended for productive usage and might need to be adapated based on the configuration of the selected SAP IBP system.  
+You can enhance SAP Integrated Business Planning (IBP) Excel workbooks by using Visual Basic for Applications (VBA) coding. This GitHub repository contains several samples to illustrate existing use cases and capabilities. The coding is not intended for productive usage and might need to be adapated based on the configuration of the selected SAP IBP system.  
 
 ## Requirements
 
