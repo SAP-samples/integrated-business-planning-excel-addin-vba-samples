@@ -14,6 +14,8 @@ To test these samples you need an SAP IBP tenant and a configured planning area 
 
 To test the VBA samples, simply download the desired Excel workbook, connect to a planning area and adjust the planning view according to your needs. Please also make your self familiar with the coding. The coding can be viewed by using the Visual Basic Editor.
 
+For more information about installing the SAP IBP, Add-in for Microsoft Excel have a look at SAP note 2135948.
+
 ## Known Issues
 
 There are no known issues.
