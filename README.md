@@ -1,4 +1,4 @@
-# VBA samples for SAP IBP, Add-in for Microsoft Excel
+# VBA Samples for SAP IBP, Add-in for Microsoft Excel
 
 Collection of planning view enhanced with VBA coding. These samples should kick-start your VBA journey within SAP IBP.
 
@@ -26,7 +26,7 @@ These VBA samples are meant for test purpose. Hence we don't offer any support.
 
 ## Contributing
 
-In case you want to contribute to this project, see any further use cases or enhancements, please go to "Discussions" and post your feedback right there. We are looking forward to receive feedback from you!
+In case you want to contribute to this project, see any further use cases or enhancements, please go to [Discussions](https://github.com/SAP-samples/integrated-business-planning-excel-add-in-vba-samples/discussions) and post your feedback right there. We are looking forward to receive feedback from you!
 
 ## License
 Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
