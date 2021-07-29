@@ -26,7 +26,7 @@ These VBA samples are meant for test purpose. Hence we don't offer any support.
 
 ## Contributing
 
-In case you want to contribute to this project, see any further use cases or enhancements, please reach out to patrick.weber01@sap.com.
+In case you want to contribute to this project, see any further use cases or enhancements, please go to "Discussions" and post your feedback right there. We are looking forward to receive feedback from you!
 
 ## License
 Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
