@@ -26,6 +26,8 @@ There are no known issues.
 
 These VBA samples are meant for test purpose. Hence we don't offer any support. 
 
+<!---However, you may raise a question in [SAP Community Q&A](https://answers.sap.com/index.html).-->
+
 ## Contributing
 
 In case you want to contribute to this project, see any further use cases or enhancements, please go to [Discussions](https://github.com/SAP-samples/integrated-business-planning-excel-add-in-vba-samples/discussions) and post your feedback right there. We are looking forward to receive feedback from you!
