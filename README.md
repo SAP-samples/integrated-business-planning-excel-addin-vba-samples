@@ -25,8 +25,7 @@ There are no known issues.
 ## How to obtain support
 
 These VBA samples are meant for test purpose. Hence we don't offer any support. 
-
-<!---However, you may raise a question in [SAP Community Q&A](https://answers.sap.com/index.html).-->
+However, you may raise a question in [SAP Community Q&A](https://answers.sap.com/index.html).
 
 ## Contributing
 
