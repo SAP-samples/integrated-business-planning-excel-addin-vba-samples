@@ -1,6 +1,6 @@
-# VBA Samples for SAP IBP, Add-in for Microsoft Excel
+# VBA Samples for SAP Integrated Business Planning (IBP), Add-in for Microsoft Excel
 
-Collection of planning views enhanced with Visual Basic for Applications (VBA) coding. These samples should kick-start the creation of customized planning view templates to be used for SAP Integrated Business Planning (IBP).
+Collection of planning views enhanced with Visual Basic for Applications (VBA) coding. These samples should kick-start the creation of customized planning view templates to be used for SAP IBP.
 
 ## Description
 
@@ -15,7 +15,7 @@ To test these samples, you need an SAP IBP tenant and a configured planning area
 To test the VBA samples, simply download the desired Excel workbook, navigate to the SAP IBP tab and log on to the specific planning area of your SAP IBP system. Then adjust the planning view and the VBA coding according to your needs. The VBA coding can be viewed by using the Visual Basic Editor (in the tab “Developer”, please check Excel Options > Customize Ribbon, if this tab doesn’t show up). Please make yourself familiar with the coding and include only the parts which are needed.
 All VBA samples can be found in the folder "VBA samples". For all business-related use cases, you'll find one dedicated folder. You'll find the getting started content right away in the folder "VBA samples". This example is intended to expose all existing VBA methods that are related to SAP IBP.
 For more information about installing the SAP IBP, add-in for Microsoft Excel have a look at SAP note 2135948.
-If you need further information about how to work with the SAP IBP, add-in for Microsoft Excel visit SAP Help – Planning with Microsoft Excel.
+If you need further information about how to work with the SAP IBP, add-in for Microsoft Excel visit [SAP Help – Planning with Microsoft Excel](https://help.sap.com/viewer/b28ffdd739bf45678ef36c44e64652d7/latest/en-US/c6b55054e5edea6fe10000000a423f68.html).
 
 ## Known Issues
 
