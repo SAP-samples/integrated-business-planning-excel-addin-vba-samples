@@ -1,0 +1,13 @@
+<EPMTab xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://xml.sap.com/2010/02/bpc">
+	<Group>
+		<label>Ribbon Extension</label>
+		<Component>
+			<type>Button</type>
+			<label>Log On(Productive System)</label>
+			<supertip>Logging in to the productive system.</supertip>
+			<keytip></keytip>
+			<onAction>IBPExtension.xlam!LogOn</onAction>
+			<isEnabled>IBPExtension.xlam!IsOffline</isEnabled>
+		</Component>
+	</Group>
+</EPMTab>

@@ -1,0 +1,78 @@
+<EPMTab xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://xml.sap.com/2010/02/bpc">
+	<Group>
+		<label>Ribbon Extension</label>
+		<Component>
+			<type>Menu</type>
+			<label>Log On to</label>
+			<supertip>Log On to an IBP system.</supertip>
+			<isEnabled>IBPExtension.xlam!IsOffline</isEnabled>
+			<SubMenus>
+				<Component>
+					<type>Button</type>
+					<label>Productive System</label>
+					<onAction>IBPExtension.xlam!LogOn</onAction>
+					<onActionParameters>
+						<string>Productive System</string>
+					</onActionParameters>
+				</Component>
+				<Component>
+					<type>Button</type>
+					<label>Test System</label>
+					<onAction>IBPExtension.xlam!LogOn</onAction>
+					<onActionParameters>
+						<string>Test System</string>
+					</onActionParameters>
+				</Component>
+			</SubMenus>
+		</Component>
+		<Component>
+			<type>Menu</type>
+			<label>Favorites</label>
+			<supertip>Open a favorite.</supertip>
+			<isEnabled>IBPExtension.xlam!IsOnline</isEnabled>
+			<SubMenus>
+				<Component>
+					<type>Button</type>
+					<label>MyFavorite1</label>
+					<onAction>IBPExtension.xlam!OpenFavorite</onAction>
+					<onActionParameters>
+						<string>MyFavorite1</string>
+					</onActionParameters>
+				</Component>
+				<Component>
+					<type>Button</type>
+					<label>MyFavorite2</label>
+					<onAction>IBPExtension.xlam!OpenFavorite</onAction>
+					<onActionParameters>
+						<string>MyFavorite2</string>
+					</onActionParameters>
+				</Component>
+			</SubMenus>
+		</Component>
+		<Component>
+			<type>Menu</type>
+			<label>Favorites (incl. Log On)</label>
+			<supertip>Open a favorite and Log On if needed.</supertip>
+			<SubMenus>
+				<Component>
+					<type>Button</type>
+					<label>MyFavorite1 (Productive System)</label>
+					<onAction>IBPExtension.xlam!LogOnAndOpenFavorite</onAction>
+					<onActionParameters>
+						<string>Productive System</string>
+						<string>MyFavorite1</string>
+					</onActionParameters>
+				</Component>
+				<Component>
+					<type>Button</type>
+					<label>MyFavorite1 (Test System)</label>
+					<onAction>IBPExtension.xlam!LogOnAndOpenFavorite</onAction>
+					<onActionParameters>
+						<string>Test System</string>
+						<string>MyFavorite1</string>
+					</onActionParameters>
+				</Component>
+			</SubMenus>
+		</Component>
+	</Group>
+</EPMTab>

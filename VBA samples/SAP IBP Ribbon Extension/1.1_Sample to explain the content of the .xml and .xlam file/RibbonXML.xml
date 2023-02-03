@@ -1,0 +1,60 @@
+<EPMTab xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+xmlns="http://xml.sap.com/2010/02/bpc">
+	<Group>                              
+		<label>My Ribbon Extension</label>                              
+        <Component>                                              
+			<type>Button</type>                                              
+			<label>My Button</label>                                              
+			<supertip>Just a simple button</supertip>                                              
+			<keytip>BU</keytip>                                              
+			<onAction>IBPExtension.xlam!ButtonAction</onAction>                                              
+			<isEnabled>IBPExtension.xlam!ButtonEnabled</isEnabled>                              
+        </Component>                              
+        <Component>                                              
+			<type>ToggleButton</type>                                              
+			<label>My Toggle Button</label>                                              
+			<supertip>A toggle button</supertip>                                              
+			<keytip>TO</keytip>                                              
+			<onAction>IBPExtension.xlam!ToggleButtonAction</onAction>                                              
+			<isEnabled>IBPExtension.xlam!ToggleButtonEnabled</isEnabled>                                              
+			<onPressed>IBPExtension.xlam!ToggleButtonPressed</onPressed>                              
+		</Component>
+		<Component>                                              
+			<type>Menu</type>                                              
+			<label>My Menu</label>
+			<supertip>A menu with different components</supertip>                                              
+			<keytip>ME</keytip> 
+			<isEnabled>IBPExtension.xlam!MenuEnabled</isEnabled>  			
+			<SubMenus>                                                              
+				<Component>                                                                             
+					<type>Button</type>                                                                             
+					<label>Button 1</label>
+					<supertip>First button in the menu</supertip>  					
+					<onAction>IBPExtension.xlam!AnotherButtonAction</onAction>
+					<onActionParameters>
+						<string>Button 1</string>
+					</onActionParameters>  						
+				</Component>                                                              
+				<Component>                                                                             
+					<type>ToggleButton</type>                                                                             
+					<label>Toggle Button</label>
+					<supertip>Second component in the menu</supertip>  					
+					<onAction>IBPExtension.xlam!AnotherToggleButtonAction</onAction>                                                                                                                                                         
+					<onPressed>IBPExtension.xlam!AnotherToggleButtonPressed</onPressed>                                                              
+				</Component>                                                              
+				<Component>                                                                              
+						<type>Separator</type>                                                              
+				</Component>                                                              
+				<Component>                                                                             
+					<type>Button</type>                                                                             
+					<label>Button 2</label>
+					<supertip>First button in the menu</supertip>  					
+					<onAction>IBPExtension.xlam!AnotherButtonAction</onAction>
+					<onActionParameters>
+						<string>Button 2</string>
+					</onActionParameters>						
+				</Component>                                              
+			</SubMenus>                              
+        </Component>                
+	</Group>
+</EPMTab>
