@@ -7,7 +7,7 @@ xmlns="http://xml.sap.com/2010/02/bpc">
 				<label>Save Data with Info</label>
 				<supertip>Saving Data with prefilling the dialog for reason codes and comments. </supertip>
 				<keytip></keytip>
-				<onAction>IBPXLA.xlam!SaveData_Click</onAction>
+				<onAction>IBPExtension.xlam!SaveData_Click</onAction>
 				<isEnabled></isEnabled>
 				<onPressed></onPressed>
 			</Component>
