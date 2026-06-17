@@ -21,7 +21,7 @@ If you need further information about how to work with the SAP IBP, add-in for M
 
 ## Known Issues
 
-There are no known issues.
+Still ActiveX controls are used in the samples and need to be exchanged by Form controls.
 
 ## How to obtain support
 
@@ -33,5 +33,5 @@ However, you may raise a question in the GitHub discussions or in the [SAP Commu
 In case you want to contribute to this project, see any further use cases or enhancements, please go to [Discussions](https://github.com/SAP-samples/integrated-business-planning-excel-add-in-vba-samples/discussions) and post your feedback right there. We are looking forward to receive feedback from you!
 
 ## License
-Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
+Copyright (c) 2026 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
 
